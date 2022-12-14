@@ -5,16 +5,17 @@ pipeline{
       steps{
        echo "Git"
       }
-       stage("MVN"){
+     }
+     stage("MVN"){
       steps{
        echo "mvn clean package"
       }
-    }
-       stage("NXS"){
+     }
+     stage("NXS"){
       steps{
        echo "nexus repo"
       }
-    
-  }
+    }
 
+}
 }
