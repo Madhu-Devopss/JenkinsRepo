@@ -13,7 +13,7 @@ pipeline{
      }
      stage("NXS"){
       steps{
-       echo "nexus repo"
+       echo "nexus repository"
       }
     }
 
